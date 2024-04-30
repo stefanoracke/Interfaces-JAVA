@@ -2,7 +2,7 @@
 
 En la programación orientada a objetos (POO) de Java, la abstracción de clases es un concepto fundamental que permite definir una plantilla o modelo para crear clases concretas. Esta plantilla establece las características comunes que comparten un conjunto de clases relacionadas, evitando la redundancia de código y promoviendo la reutilización.
 
-##Características de las clases abstractas en Java:
+## Características de las clases abstractas en Java:
 
 - No se pueden instanciar: A diferencia de las clases concretas, las clases abstractas no se pueden utilizar directamente para crear objetos. Esto significa que no podemos utilizar la palabra clave new con una clase abstracta.
 - Contienen métodos abstractos: Los métodos abstractos son métodos que solo se declaran en la clase abstracta pero no se implementan. Las clases concretas que hereden de la clase abstracta deben implementar estos métodos abstractos para proporcionarles una definición específica.
