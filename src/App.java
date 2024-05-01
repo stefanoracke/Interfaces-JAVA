@@ -1,11 +1,19 @@
+import models.Dolphine;
+import models.Octopus;
+
+
 public class App {
     public static void main(String[] args) throws Exception {
+        Octopus octopus = new Octopus("Pulpo");
+        Dolphine dolphine = new Dolphine("Josefa");
 
-        Circle circle = new Circle(2);
-        Rectangle rectangle = new Rectangle(2, 4);
+        octopus.nadar();
+        octopus.comunicarse();
+        octopus.alimentar(3);
 
-        System.out.println("El area del circulo es: " + circle.calcularArea());
-        System.out.println("El area del rectángulo es: " + rectangle.calcularArea());
-        rectangle.imprimirInfo();
+        dolphine.nadar();
+        dolphine.comunicarse();
+        dolphine.alimentar(5);
+     
     }
 }
